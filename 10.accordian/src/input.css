@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+
+@layer utilities{
+    .section-dimension{
+        width: clamp(500px , 100%,800px );
+    }
+    input[type="radio"]:checked + div{
+        max-height: 300px;
+    }
+}
+
