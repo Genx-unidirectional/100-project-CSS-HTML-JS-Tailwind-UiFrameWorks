@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop up </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body class="">
+    <section class="relative min-h-screen bg-center bg-cover"
+        style="background-image: url(../build/public/thumb-1920-597965.jpg);">
+        <div id="btn" class="absolute bottom-0 right-4 animate-bounce">
+            <img class="" src="../build/public/play.png" alt="">
+        </div>
+        <div id="pop-video"
+            class="bg-black min-h-screen w-full px-8 relative  justify-center items-center invisible flex opacity-0 transition-all duration-700">
+            <video src="./public/trailer.mp4" controls></video>
+            <button id="close-btn" class="text-red-500 absolute text-5xl font-bold top-3 right-3">X</button>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
